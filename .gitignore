@@ -109,3 +109,5 @@ dist
 .vscode/
 
 .DS_Store
+
+src/schema-types.d.ts

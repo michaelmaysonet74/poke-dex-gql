@@ -4,7 +4,7 @@
   "description": "GraphQL Pokedex",
   "main": "src/server.js",
   "scripts": {
-    "precompile": "mkdir -p dist/src",
+    "precompile": "mkdir -p dist/src && npm run generate",
     "compile": "tsc",
     "test": "npm run lint && jest src/",
     "test:coverage": "jest src/ --coverage",
